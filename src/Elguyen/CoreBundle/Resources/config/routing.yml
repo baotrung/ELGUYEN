@@ -1,0 +1,3 @@
+elguyen_core_homepage:
+    path:     /
+    defaults: { _controller: ElguyenCoreBundle:Default:index }

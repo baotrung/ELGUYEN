@@ -1,0 +1,4 @@
+elguyen_core:
+    resource: "@ElguyenCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
