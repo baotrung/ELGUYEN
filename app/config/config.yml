@@ -78,3 +78,12 @@ assetic:
         bootstrap_scss:
             inputs:
                 - '%kernel.project_dir%/vendor/twbs/bootstrap/scss/bootstrap.scss'
+        jquery:
+            inputs:
+                - '%kernel.project_dir%/web/bundles/elguyencore/js/jquery-3.2.1.min.js'
+        tether:
+            inputs:
+                - '%kernel.project_dir%/web/bundles/elguyencore/js/tether.min.js'
+        bootstrap_js:
+            inputs:
+                - '%kernel.project_dir%/vendor/twbs/bootstrap/dist/js/bootstrap.min.js'

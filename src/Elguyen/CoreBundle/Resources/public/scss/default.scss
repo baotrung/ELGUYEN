@@ -1,0 +1,10 @@
+@import "inc/config";
+.btn{
+    background-color: rgba($color-accent, 1);
+    color: rgba($color-text, 1);
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        opacity: 0.8;
+    }
+}
