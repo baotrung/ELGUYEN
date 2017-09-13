@@ -23,3 +23,9 @@
             [cmd]: composer require leafo/scssphp
         + filter jsqueeze:
             [cmd]: composer require patchwork/jsqueeze
+
+* install asset:
+    [cmd-admin]: php bin/console asset:install --symlink
+
+* install asset to prod:
+    [cmd]: php bin/console assetic:dump --enc=prod --no-debug

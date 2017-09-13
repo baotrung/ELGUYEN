@@ -1,5 +1,11 @@
 @import "inc/config";
+
+body{
+    background-color: $color-primary;
+}
+
 .btn{
+    display: inline-block;
     background-color: rgba($color-accent, 1);
     color: rgba($color-text, 1);
     cursor: pointer;
